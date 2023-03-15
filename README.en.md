@@ -11,7 +11,7 @@
 ![cover](./docs/c1.png)
 ![cover2](./docs/c2.png)
 
-- [ChatGPT Web](#chatgpt-web)
+- [ChatGPT Web](#chatgpt-new)
 	- [Introduction](#introduction)
 	- [Roadmap](#roadmap)
 	- [Prerequisites](#prerequisites)
@@ -52,7 +52,7 @@ Comparison:
 1. `ChatGPTAPI` uses `gpt-3.5-turbo-0301` to simulate `ChatGPT` through the official `OpenAI` completion `API` (the most reliable method, but it is not free and does not use models specifically tuned for chat).
 2. `ChatGPTUnofficialProxyAPI` accesses `ChatGPT`'s backend `API` via an unofficial proxy server to bypass `Cloudflare` (uses the real `ChatGPT`, is very lightweight, but depends on third-party servers and has rate limits).
 
-[Details](https://github.com/Chanzhaoyu/chatgpt-web/issues/138)
+[Details](https://github.com/Haorenjie/chatgpt-new/issues/138)
 
 Switching Methods:
 1. Go to the `service/.env.example` file and copy the contents to the `service/.env` file.
@@ -182,13 +182,13 @@ pnpm dev
 #### Docker Build & Run
 
 ```bash
-docker build -t chatgpt-web .
+docker build -t chatgpt-new .
 
 # foreground operation
-docker run --name chatgpt-web --rm -it -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
+docker run --name chatgpt-new --rm -it -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-new
 
 # background operation
-docker run --name chatgpt-web -d -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
+docker run --name chatgpt-new -d -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-new
 
 # running address
 http://localhost:3002/
@@ -196,14 +196,14 @@ http://localhost:3002/
 
 #### Docker Compose
 
-[Hub Address](https://hub.docker.com/repository/docker/Mr.Hao94/chatgpt-web/general)
+[Hub Address](https://hub.docker.com/repository/docker/Mr.Hao94/chatgpt-new/general)
 
 ```yml
 version: '3'
 
 services:
   app:
-    image: Mr.Hao94/chatgpt-web # always use latest, pull the tag image again when updating
+    image: Mr.Hao94/chatgpt-new # always use latest, pull the tag image again when updating
     ports:
       - 3002:3002
     environment:
@@ -310,8 +310,8 @@ Please read the [Contributing Guidelines](./CONTRIBUTING.en.md) before contribut
 
 Thanks to all the contributors!
 
-<a href="https://github.com/Chanzhaoyu/chatgpt-web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Chanzhaoyu/chatgpt-web" />
+<a href="https://github.com/Haorenjie/chatgpt-new/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Haorenjie/chatgpt-new" />
 </a>
 
 ## Sponsorship

@@ -1,11 +1,11 @@
 {
-  "name": "chatgpt-web",
+  "name": "chatgpt-new",
   "version": "2.10.5",
   "private": false,
   "description": "ChatGPT Web",
   "author": "Mr.Hao <Mr.Hao1994@gmail.com>",
   "keywords": [
-    "chatgpt-web",
+    "chatgpt-new",
     "chatgpt",
     "chatbot",
     "vue"

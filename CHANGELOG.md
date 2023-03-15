@@ -5,21 +5,21 @@
 更新依赖，`access_token` 默认代理为 [acheong08](https://github.com/acheong08) 的 `https://bypass.duti.tech/api/conversation`
 
 ## Feature
-- `Prompt` 商店在线导入可以导入两种 `recommend.json`里提到的模板 [simonwu53](https://github.com/Chanzhaoyu/chatgpt-web/pull/521)
-- 支持 `HTTPS_PROXY` [whatwewant](https://github.com/Chanzhaoyu/chatgpt-web/pull/308)
+- `Prompt` 商店在线导入可以导入两种 `recommend.json`里提到的模板 [simonwu53](https://github.com/Haorenjie/chatgpt-new/pull/521)
+- 支持 `HTTPS_PROXY` [whatwewant](https://github.com/Haorenjie/chatgpt-new/pull/308)
 - `Prompt` 添加查询筛选
 
 ## Enhancement
-- 调整输入框最大行数 [yi-ge](https://github.com/Chanzhaoyu/chatgpt-web/pull/502)
-- 优化 `docker` 打包 [whatwewant](https://github.com/Chanzhaoyu/chatgpt-web/pull/520)
+- 调整输入框最大行数 [yi-ge](https://github.com/Haorenjie/chatgpt-new/pull/502)
+- 优化 `docker` 打包 [whatwewant](https://github.com/Haorenjie/chatgpt-new/pull/520)
 - `Prompt` 添加翻译和优化布局
-- 「繁体中文」补全和审阅 [PeterDaveHello](https://github.com/Chanzhaoyu/chatgpt-web/pull/542)
+- 「繁体中文」补全和审阅 [PeterDaveHello](https://github.com/Haorenjie/chatgpt-new/pull/542)
 - 语言选择调整为下路框形式
 - 权限输入框类型调整为密码形式
 
 ## BugFix
-- `JSON` 导入检查 [Nothing1024](https://github.com/Chanzhaoyu/chatgpt-web/pull/523)
-- 修复 `AUTH_SECRET_KEY` 模式下跨域异常并添加对 `node.js 19` 版本的支持 [yi-ge](https://github.com/Chanzhaoyu/chatgpt-web/pull/499)
+- `JSON` 导入检查 [Nothing1024](https://github.com/Haorenjie/chatgpt-new/pull/523)
+- 修复 `AUTH_SECRET_KEY` 模式下跨域异常并添加对 `node.js 19` 版本的支持 [yi-ge](https://github.com/Haorenjie/chatgpt-new/pull/499)
 - 确定清空上下文时不应该重置会话标题
 
 ## Other
@@ -31,7 +31,7 @@
 `2023-03-11`
 
 ## Feature
-- 感谢 [Nothing1024](https://github.com/Chanzhaoyu/chatgpt-web/pull/268) 添加 `Prompt` 模板和 `Prompt` 商店支持
+- 感谢 [Nothing1024](https://github.com/Haorenjie/chatgpt-new/pull/268) 添加 `Prompt` 模板和 `Prompt` 商店支持
 
 ## Enhancement
 - 设置添加关闭按钮[#495]
@@ -47,16 +47,16 @@
 > 声明：除 `ChatGPTUnofficialProxyAPI` 使用的非官方代理外，本项目代码包括上游引用包均开源在 `GitHub`，如果你觉得本项目有监控后门或有问题导致你的账号、API被封，那我很抱歉。我可能`BUG`写的多，但我不缺德。此次主要为前端界面调整，周末愉快。
 
 ## Feature
-- 支持长回复 [[yi-ge](https://github.com/Chanzhaoyu/chatgpt-web/pull/450)][[详情](https://github.com/Chanzhaoyu/chatgpt-web/pull/450)]
-- 支持 `PWA` [[chenxch](https://github.com/Chanzhaoyu/chatgpt-web/pull/452)]
+- 支持长回复 [[yi-ge](https://github.com/Haorenjie/chatgpt-new/pull/450)][[详情](https://github.com/Haorenjie/chatgpt-new/pull/450)]
+- 支持 `PWA` [[chenxch](https://github.com/Haorenjie/chatgpt-new/pull/452)]
 
 ## Enhancement
 - 调整移动端按钮和优化布局
 - 调整 `iOS` 上安全距离
-- 简化 `docker-compose` 部署 [[cloudGrin](https://github.com/Chanzhaoyu/chatgpt-web/pull/466)]
+- 简化 `docker-compose` 部署 [[cloudGrin](https://github.com/Haorenjie/chatgpt-new/pull/466)]
 
 ## BugFix
-- 修复清空会话侧边栏标题不会重置的问题 [[RyanXinOne](https://github.com/Chanzhaoyu/chatgpt-web/pull/453)]
+- 修复清空会话侧边栏标题不会重置的问题 [[RyanXinOne](https://github.com/Haorenjie/chatgpt-new/pull/453)]
 - 修复设置文字过长时导致的设置按钮消失的问题
 
 ## Other
@@ -66,7 +66,7 @@
 
 `2023-03-09`
 
-衔接 `2.10.1` 版本[详情](https://github.com/Chanzhaoyu/chatgpt-web/releases/tag/v2.10.1)
+衔接 `2.10.1` 版本[详情](https://github.com/Haorenjie/chatgpt-new/releases/tag/v2.10.1)
 
 ## Enhancement
 - 移动端下输入框获得焦点时左侧按钮隐藏
@@ -83,21 +83,21 @@
 
 - 在项目中添加 `.env` 从一开始就是个错误的示范
 - 如果是 `Fork` 项目进行修改测试总是会被 `Git` 修改提示给打扰
-- 感谢 [yi-ge](https://github.com/Chanzhaoyu/chatgpt-web/pull/395) 的提醒和修改
+- 感谢 [yi-ge](https://github.com/Haorenjie/chatgpt-new/pull/395) 的提醒和修改
 
 
 这两天开始，官方已经开始对第三方代理进行了拉闸， `accessToken` 即将或已经开始可能会不可使用。异常 `API` 使用也开始封号，封号缘由不明，如果出现使用 `API` 提示错误，请查看后端控制台信息，或留意邮箱。
 
 ## Feature
-- 感谢 [CornerSkyless](https://github.com/Chanzhaoyu/chatgpt-web/pull/393) 添加是否发送上下文开关功能
+- 感谢 [CornerSkyless](https://github.com/Haorenjie/chatgpt-new/pull/393) 添加是否发送上下文开关功能
 
 ## Enhancement
-- 感谢 [nagaame](https://github.com/Chanzhaoyu/chatgpt-web/pull/415) 优化`docker`打包镜像文件过大的问题
-- 感谢 [xieccc](https://github.com/Chanzhaoyu/chatgpt-web/pull/404) 新增 `API` 模型配置变量 `OPENAI_API_MODEL`
-- 感谢 [acongee](https://github.com/Chanzhaoyu/chatgpt-web/pull/394) 优化输出时滚动条问题
+- 感谢 [nagaame](https://github.com/Haorenjie/chatgpt-new/pull/415) 优化`docker`打包镜像文件过大的问题
+- 感谢 [xieccc](https://github.com/Haorenjie/chatgpt-new/pull/404) 新增 `API` 模型配置变量 `OPENAI_API_MODEL`
+- 感谢 [acongee](https://github.com/Haorenjie/chatgpt-new/pull/394) 优化输出时滚动条问题
 
 ## BugFix
-- 感谢 [CornerSkyless](https://github.com/Chanzhaoyu/chatgpt-web/pull/392) 修复导出图片会丢失头像的问题
+- 感谢 [CornerSkyless](https://github.com/Haorenjie/chatgpt-new/pull/392) 修复导出图片会丢失头像的问题
 - 修复深色模式导出图片的样式问题
 
 
@@ -111,13 +111,13 @@
 
 ## Feature
 - 添加权限功能，用法：`service/.env` 中的 `AUTH_SECRET_KEY` 变量添加密码
-- 感谢 [PeterDaveHello](https://github.com/Chanzhaoyu/chatgpt-web/pull/348) 添加「繁体中文」翻译
-- 感谢 [GermMC](https://github.com/Chanzhaoyu/chatgpt-web/pull/369) 添加聊天记录导入、导出、清空的功能
-- 感谢 [CornerSkyless](https://github.com/Chanzhaoyu/chatgpt-web/pull/374) 添加会话保存为本地图片的功能
+- 感谢 [PeterDaveHello](https://github.com/Haorenjie/chatgpt-new/pull/348) 添加「繁体中文」翻译
+- 感谢 [GermMC](https://github.com/Haorenjie/chatgpt-new/pull/369) 添加聊天记录导入、导出、清空的功能
+- 感谢 [CornerSkyless](https://github.com/Haorenjie/chatgpt-new/pull/374) 添加会话保存为本地图片的功能
 
 
 ## Enhancement
-- 感谢 [CornerSkyless](https://github.com/Chanzhaoyu/chatgpt-web/pull/363) 添加 `ctrl+enter`  发送消息
+- 感谢 [CornerSkyless](https://github.com/Haorenjie/chatgpt-new/pull/363) 添加 `ctrl+enter`  发送消息
 - 现在新消息只有在结束了之后才滚动到底部，而不是之前的强制性
 - 优化部分代码
 
@@ -147,12 +147,12 @@
 `2023-03-06`
 
 ## Enhancement
-- 感谢 [ChandlerVer5](https://github.com/Chanzhaoyu/chatgpt-web/pull/305) 使用 `markdown-it` 替换 `marked`，解决代码块闪烁的问题
-- 感谢 [shansing](https://github.com/Chanzhaoyu/chatgpt-web/pull/277) 改善文档
-- 感谢 [nalf3in](https://github.com/Chanzhaoyu/chatgpt-web/pull/293) 添加英文翻译
+- 感谢 [ChandlerVer5](https://github.com/Haorenjie/chatgpt-new/pull/305) 使用 `markdown-it` 替换 `marked`，解决代码块闪烁的问题
+- 感谢 [shansing](https://github.com/Haorenjie/chatgpt-new/pull/277) 改善文档
+- 感谢 [nalf3in](https://github.com/Haorenjie/chatgpt-new/pull/293) 添加英文翻译
 
 ## BugFix
-- 感谢[sepcnt ](https://github.com/Chanzhaoyu/chatgpt-web/pull/279) 修复切换记录时编辑状态未关闭的问题
+- 感谢[sepcnt ](https://github.com/Haorenjie/chatgpt-new/pull/279) 修复切换记录时编辑状态未关闭的问题
 - 修复复制代码的兼容性报错问题
 - 修复部分优化小问题
 
@@ -163,8 +163,8 @@
 手动部署的同学，务必删除根目录和`service`中的`node_modules`重新安装依赖，降低出现问题的概率，自动部署的不需要做改动。
 
 ### Feature
-- 感谢 [hyln9](https://github.com/Chanzhaoyu/chatgpt-web/pull/247) 添加对渲染 `LaTex` 数学公式的支持
-- 感谢 [ottocsb](https://github.com/Chanzhaoyu/chatgpt-web/pull/227) 添加支持 `webAPP` (苹果添加到主页书签访问)支持
+- 感谢 [hyln9](https://github.com/Haorenjie/chatgpt-new/pull/247) 添加对渲染 `LaTex` 数学公式的支持
+- 感谢 [ottocsb](https://github.com/Haorenjie/chatgpt-new/pull/227) 添加支持 `webAPP` (苹果添加到主页书签访问)支持
 - 添加 `OPENAI_API_BASE_URL` 可选环境变量[#249]
 ## Enhancement
 - 优化在高分屏上主题内容的最大宽度[#257]
@@ -186,10 +186,10 @@
 - 完善多语言，现在可以切换中英文显示
 
 ## Enhancement
-- 由[Zo3i](https://github.com/Chanzhaoyu/chatgpt-web/pull/187) 完善 `docker-compose` 部署文档
+- 由[Zo3i](https://github.com/Haorenjie/chatgpt-new/pull/187) 完善 `docker-compose` 部署文档
 
 ### BugFix
-- 由 [ottocsb](https://github.com/Chanzhaoyu/chatgpt-web/pull/200) 修复头像修改不同步的问题
+- 由 [ottocsb](https://github.com/Haorenjie/chatgpt-new/pull/200) 修复头像修改不同步的问题
 ## Other
 - 更新依赖至最新
 - 修改 `README` 内容
@@ -236,7 +236,7 @@
 
 `2023-02-27`
 
-- 感谢 [puppywang](https://github.com/Chanzhaoyu/chatgpt-web/commit/628187f5c3348bda0d0518f90699a86525d19018) 修复了 `2.7.0` 版本中关于流输出数据的问题（使用 `nginx` 需要自行配置 `octet-stream` 相关内容）
+- 感谢 [puppywang](https://github.com/Haorenjie/chatgpt-new/commit/628187f5c3348bda0d0518f90699a86525d19018) 修复了 `2.7.0` 版本中关于流输出数据的问题（使用 `nginx` 需要自行配置 `octet-stream` 相关内容）
 
 - 关于为什么使用 `octet-stream` 而不是 `sse`，是因为更好的兼容之前的模式。
 
@@ -259,9 +259,9 @@
 `2023-02-25`
 
 ### Feature
-- 适配系统深色模式 [#118](https://github.com/Chanzhaoyu/chatgpt-web/issues/103)
+- 适配系统深色模式 [#118](https://github.com/Haorenjie/chatgpt-new/issues/103)
 ### BugFix
-- 修复用户消息能被渲染为 `HTML` 问题 [#117](https://github.com/Chanzhaoyu/chatgpt-web/issues/117)
+- 修复用户消息能被渲染为 `HTML` 问题 [#117](https://github.com/Haorenjie/chatgpt-new/issues/117)
 
 ## v2.7.2
 
@@ -314,17 +314,17 @@
 
 `2023-02-21`
 ### Feature
-- 新增对 `网页 accessToken` 调用 `ChatGPT`，更智能不过不太稳定 [#51](https://github.com/Chanzhaoyu/chatgpt-web/issues/51)
+- 新增对 `网页 accessToken` 调用 `ChatGPT`，更智能不过不太稳定 [#51](https://github.com/Haorenjie/chatgpt-new/issues/51)
 - 前端页面设置按钮显示查看当前后端服务配置
 
 ### Enhancement
-- 新增 `TIMEOUT_MS` 环境变量设定后端超时时常（单位：毫秒）[#62](https://github.com/Chanzhaoyu/chatgpt-web/issues/62)
+- 新增 `TIMEOUT_MS` 环境变量设定后端超时时常（单位：毫秒）[#62](https://github.com/Haorenjie/chatgpt-new/issues/62)
 
 ## v2.5.2
 
 `2023-02-21`
 ### Feature
-- 增加对 `markdown` 格式的支持 [Demo](https://github.com/Chanzhaoyu/chatgpt-web/pull/77)
+- 增加对 `markdown` 格式的支持 [Demo](https://github.com/Haorenjie/chatgpt-new/pull/77)
 ### BugFix
 - 重载会话时滚动条保持
 
@@ -476,4 +476,4 @@
 
 ### BugFix
 - 修复新增信息容器不会自动滚动到问题
-- 修复文本过长不换行到问题 [#1](https://github.com/Chanzhaoyu/chatgpt-web/issues/1)
+- 修复文本过长不换行到问题 [#1](https://github.com/Haorenjie/chatgpt-new/issues/1)

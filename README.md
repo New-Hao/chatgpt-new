@@ -11,7 +11,7 @@
 ![cover](./docs/c1.png)
 ![cover2](./docs/c2.png)
 
-- [ChatGPT Web](#chatgpt-web)
+- [ChatGPT Web](#chatgpt-new)
 	- [介绍](#介绍)
 	- [待实现路线](#待实现路线)
 	- [前置要求](#前置要求)
@@ -187,13 +187,13 @@ pnpm dev
 #### Docker build & Run
 
 ```bash
-docker build -t chatgpt-web .
+docker build -t chatgpt-new .
 
 # 前台运行
-docker run --name chatgpt-web --rm -it -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
+docker run --name chatgpt-new --rm -it -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-new
 
 # 后台运行
-docker run --name chatgpt-web -d -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
+docker run --name chatgpt-new -d -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-new
 
 # 运行地址
 http://localhost:3002/
@@ -201,14 +201,14 @@ http://localhost:3002/
 
 #### Docker compose
 
-[Hub 地址](https://hub.docker.com/repository/docker/Mr.Hao94/chatgpt-web/general)
+[Hub 地址](https://hub.docker.com/repository/docker/Mr.Hao94/chatgpt-new/general)
 
 ```yml
 version: '3'
 
 services:
   app:
-    image: Mr.Hao94/chatgpt-web # 总是使用 latest ,更新时重新 pull 该 tag 镜像即可
+    image: Mr.Hao94/chatgpt-new # 总是使用 latest ,更新时重新 pull 该 tag 镜像即可
     ports:
       - 3002:3002
     environment:
@@ -312,8 +312,8 @@ A: 一种可能原因是经过 Nginx 反向代理，开启了 buffer，则 Nginx
 
 感谢所有做过贡献的人!
 
-<a href="https://github.com/Chanzhaoyu/chatgpt-web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Chanzhaoyu/chatgpt-web" />
+<a href="https://github.com/Haorenjie/chatgpt-new/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Haorenjie/chatgpt-new" />
 </a>
 
 ## 赞助
